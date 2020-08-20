@@ -1,2 +1,30 @@
 ﻿body {
 }
+main{
+    background-color:azure;
+}
+header, footer{
+    background-color:antiquewhite;
+    border:double;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkolivegreen;
+}
+header{
+    font-size:20px;
+    color:darkmagenta;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:double;
+    
+}
+ul.blocklist a{
+color:aquamarine;
+text-align: center;
+padding: .5em;
+display: block;
+}
+nav ul li{
+    display:inline-block; margin-right:250px
+}
+.ham_face{
+    float:left;
+}
