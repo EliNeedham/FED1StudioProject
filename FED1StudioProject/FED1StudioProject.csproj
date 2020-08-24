@@ -70,6 +70,8 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="Images\classroom.jfif" />
+    <Content Include="Images\ham_face.jpg" />
     <Content Include="Index.html" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
@@ -87,7 +89,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
