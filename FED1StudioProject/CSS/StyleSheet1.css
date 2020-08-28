@@ -3,28 +3,48 @@
 main{
     background-color:azure;
 }
+
+/*#region header and footer*/
 header, footer {
     background-color: antiquewhite;
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkolivegreen;
     font-size: 20px;
-    border:double
+    border:double;
+    margin: 5px;
+    width: 100%;
 }
+
+header h1, header p {
+    margin: 12px 0 8px 170px;
+    text-align: left;
+}
+
+/*#endregion */
+
+/*#region nav bar*/
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+ul.blocklist a {
+    color: aquamarine;
+    text-align: center;
+    padding: .5em;
+    display: block;
+}
+
+
+/*#endregion*/
 .clear{
     clear:both;
 }
  
-ul.blocklist a{
-color:aquamarine;
-text-align: center;
-padding: .5em;
-display: block;
-}
-nav ul li{
-    display:inline-block; 
-    margin: 0;
-}
+
+
 .hamface{
     background-image:url(/Images/ham_face.jpg);
     background-repeat: no-repeat;
@@ -35,10 +55,6 @@ nav ul li{
 
 }
 
-header h1, header p{
-    margin: 12px 0 8px 170px;
-    text-align: left;
-}
 .contactinfo{
     background-position: center;
     margin:30px;
@@ -57,14 +73,79 @@ header h1, header p{
     background-color:aquamarine;
 
 }
-#leftColumn {
-    width: 73%;
-    border-right: 1px dashed teal;
+
+
+
+/*#region Images in Index*/
+
+body {
+    background: url(..//Images/Forest.jfif) no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
 }
+
+.about {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 100%;
+}
+
+#image1 {
+    float: left;
+    margin: 5px;
+    width: 30%;
+
+}
+
+#image2{
+    float: left;
+    margin:5px;
+    width: 30%;
+}
+
+#image3{
+    float: right;
+    margin: 5px;
+    width: 30%;
+}
+    /*#endregion*/
+
+    /*#region Index.html*/
+
+.one{
+    margin:5px;
+    padding: 5px;
+    text-align: justify;
+}
+#choose{
+    text-align: center;
+    font-size: 3em;
+}
+
+
+    /*#endregion*/
 
 #rightColumn {
     width: 25%;
     float: right;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-right: none;
 }
 
+    /*#region on left employees on leadership page*/
+
+#leftColumn {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-left: none;
+    padding: 3%;
+    width: 73%;
+    float: left;
+}
+.clear{
+    clear:both;
+}
+    /*#endregion*/
 
