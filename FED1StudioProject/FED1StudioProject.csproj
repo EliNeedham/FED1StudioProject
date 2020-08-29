@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\CentriqLogo.png" />
     <Content Include="Images\Forest.jfif" />
+    <Content Include="Images\pigfarm.jfif" />
     <Content Include="Index.html" />
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />

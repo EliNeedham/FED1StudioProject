@@ -1,8 +1,10 @@
-﻿body {
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+    font-family: 'Bangers', cursive;
 }
-main{
-    background-color:azure;
-}
+
 
 /*#region header and footer*/
 header, footer {
@@ -16,8 +18,13 @@ header, footer {
     width: 100%;
 }
 
+#logo{
+    float: right;
+
+}
+
 header h1, header p {
-    margin: 12px 0 8px 170px;
+    margin: 12px 0 8px 100px;
     text-align: left;
 }
 
@@ -79,16 +86,18 @@ ul.blocklist a {
 /*#region Images in Index*/
 
 body {
-    background: url(..//Images/Forest.jfif) no-repeat center fixed;
+    background: url(..//Images/pigfarm.jfif) no-repeat center fixed;
     background-size: cover;
     margin: 0;
 }
 
 .about {
-    margin: 5px;
+    background-color: lightcyan;
+    margin: 10%;
     border: 1px solid #ccc;
     display: inline-block;
-    width: 100%;
+    padding: 5px;
+    text-align: justify;
 }
 
 #image1 {
@@ -113,12 +122,23 @@ body {
 
     /*#region Index.html*/
 
-.one{
-    margin:5px;
+.one {
+    background-color: lightcyan;
+    margin: 10%;
+    border: 1px solid #ccc;
+    display: inline-block;
     padding: 5px;
     text-align: justify;
 }
-#choose{
+.two {
+    background-color: lightcyan;
+    margin: 5% 10%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px;
+    text-align: justify;
+}
+    #choose{
     text-align: center;
     font-size: 3em;
 }
