@@ -7,20 +7,32 @@ body {
 
 
 /*#region header and footer*/
-header, footer {
+header {
     background-color: antiquewhite;
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkolivegreen;
+    color: black;
     font-size: 20px;
     border:double;
     margin: 5px;
-    width: 100%;
+    margin-bottom: 0px;
+    width: auto;
+    
 }
 
-#logo{
-    float: right;
+footer {
+    background-color: antiquewhite;
+    border: double;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    border: double;
+    margin: 5px;
+    width: auto;
+}
 
+#logo {
+    float: right;
 }
 
 header h1, header p {
@@ -32,13 +44,23 @@ header h1, header p {
 
 /*#region nav bar*/
 
+nav {
+    margin: 0px 5px;
+    border: double;
+    background-color: antiquewhite;
+    padding: 5px;
+
+}
+
 nav ul li {
     display: inline-block;
     margin: 0;
+    border: double;
+    text-align: center;
 }
 
 ul.blocklist a {
-    color: aquamarine;
+    color: darkgray;
     text-align: center;
     padding: .5em;
     display: block;
@@ -91,9 +113,13 @@ body {
     margin: 0;
 }
 
+#about-image{
+    width: 100%;
+}
+
 .about {
     background-color: lightcyan;
-    margin: 10%;
+    margin: 15px 10% 5px 10%;
     border: 1px solid #ccc;
     display: inline-block;
     padding: 5px;
@@ -104,18 +130,36 @@ body {
     float: left;
     margin: 5px;
     width: 30%;
-
 }
 
-#image2{
+.about-index-text {
+    float: right;
+    margin-right: 10px;
+    width: 60%;
+}
+
+image-text-1 {
+    float: right;
+    width: 60%;
+    padding-right: 10px;
+}
+
+image-text-2 {
     float: left;
-    margin:5px;
+    width: 60%;
+    padding-right: 10px;
+    margin: 200px;
+}
+
+#image2 {
+    float: left;
+    margin: 5px 20px 5px 5px;
     width: 30%;
 }
 
 #image3{
     float: right;
-    margin: 5px;
+    margin: 5px 5px 5px 20px;
     width: 30%;
 }
     /*#endregion*/
@@ -124,7 +168,7 @@ body {
 
 .one {
     background-color: lightcyan;
-    margin: 10%;
+    margin: 15px 10% 0px 10%;
     border: 1px solid #ccc;
     display: inline-block;
     padding: 5px;
@@ -132,40 +176,65 @@ body {
 }
 .two {
     background-color: lightcyan;
-    margin: 5% 10%;
+    margin: 0px 10% 5px 10%;
     border: 1px solid #ccc;
     display: inline-block;
     padding: 5px;
     text-align: justify;
 }
-    #choose{
+#choose {
     text-align: center;
     font-size: 3em;
+    margin: 15px 10% 5px 10%;
 }
 
 
     /*#endregion*/
 
+
 #rightColumn {
+    display:block;
     width: 25%;
     float: right;
     margin: 5px;
     border: 1px solid #ccc;
     border-right: none;
+    background-color: lightcyan;
+    padding: 10px;
+
 }
-
+/*.clear {*/
+    clear: both;
+}
     /*#region on left employees on leadership page*/
-
 #leftColumn {
     margin: 5px;
     border: 1px solid #ccc;
     border-left: none;
+    background-color: lightcyan;
     padding: 3%;
     width: 73%;
     float: left;
+    display: block;
 }
-.clear{
+/*.clear{
     clear:both;
-}
+}*/
+    /*#endregion*/
+
+    /*#region Contact Page*/
+
+    .contactus{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .contactinfo{
+        width: 400px;
+        margin: 5px 20px 20px 250px;
+        text-align: center;
+        background-color: lightcyan;
+    }
+
     /*#endregion*/
 
