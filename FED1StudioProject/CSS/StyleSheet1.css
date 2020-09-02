@@ -17,7 +17,6 @@ header {
     margin: 5px;
     margin-bottom: 0px;
     width: auto;
-    
 }
 
 footer {
@@ -35,10 +34,10 @@ footer {
     float: right;
 }
 
-header h1, header p {
+/*header h1, header p {
     margin: 12px 0 8px 100px;
     text-align: left;
-}
+}*/
 
 /*#endregion */
 
@@ -48,7 +47,7 @@ nav {
     margin: 0px 5px;
     border: double;
     background-color: antiquewhite;
-    padding: 5px;
+    /*padding: 5px;*/
 
 }
 
@@ -75,13 +74,22 @@ ul.blocklist a {
 
 
 .hamface{
-    background-image:url(/Images/ham_face.jpg);
-    background-repeat: no-repeat;
+    /*background-image:url(/Images/ham_face.jpg);*/
+    /*background-repeat: no-repeat;
     background-size:90px;
     background-position:3%;
     margin-left:3px;
-    padding: 2em;
+    padding: 1em;*/
+}
 
+/*.floatRight{
+    float:right;
+}*/
+
+.headerImage{
+    max-height: 90px;
+    margin: .5em;
+    float:left;
 }
 
 .contactinfo{
@@ -108,7 +116,7 @@ ul.blocklist a {
 /*#region Images in Index*/
 
 body {
-    background: url(..//Images/pigfarm.jfif) no-repeat center fixed;
+    background: url(../Images/pigfarm.jfif) no-repeat center fixed;
     background-size: cover;
     margin: 0;
 }
@@ -194,32 +202,28 @@ image-text-2 {
 
 #rightColumn {
     display:block;
-    width: 25%;
+    width: 20%;
     float: right;
     margin: 5px;
     border: 1px solid #ccc;
-    border-right: none;
+    /*border-right: none;*/
     background-color: lightcyan;
     padding: 10px;
 
 }
-/*.clear {*/
-    clear: both;
-}
+
     /*#region on left employees on leadership page*/
 #leftColumn {
     margin: 5px;
     border: 1px solid #ccc;
-    border-left: none;
+    /*border-left: none;*/
     background-color: lightcyan;
-    padding: 3%;
-    width: 73%;
+    padding: 2%;
+    width: 70%;
     float: left;
     display: block;
 }
-/*.clear{
-    clear:both;
-}*/
+
     /*#endregion*/
 
     /*#region Contact Page*/
