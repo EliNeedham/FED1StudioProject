@@ -224,14 +224,43 @@ image-text-2 {
     display: block;
 }
 
-    /*#endregion*/
+.thumb {
+    float: left;
+    width: 20%;
+    cursor: pointer;
+}
 
-    /*#region Contact Page*/
+.leadership{
+    display:block;
+}
 
-    .contactus{
-        font-size: 3em;
-        text-align: center;
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
     }
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}
+
+/*#endregion*/
+/*#region Contact Page*/
+.contactus {
+    font-size: 3em;
+    text-align: center;
+}
 
     .contactinfo{
         width: 400px;
