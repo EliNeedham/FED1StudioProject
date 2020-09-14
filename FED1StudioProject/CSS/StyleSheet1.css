@@ -8,15 +8,14 @@ body {
 
 /*#region header and footer*/
 header {
-    background-color: antiquewhite;
+    background-color: darkslateblue;
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     font-size: 20px;
-    border:double;
+    border: double;
     margin: 5px;
     margin-bottom: 0px;
-    width: auto;
 }
 
 footer {
@@ -59,7 +58,7 @@ nav ul li {
 }
 
 ul.blocklist a {
-    color: darkgray;
+    color: black;
     text-align: center;
     padding: .5em;
     display: block;
@@ -98,25 +97,61 @@ ul.blocklist a {
     padding: 10em;
     display:inline block;
 }
+
+/*#region Classes page */
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+}
+
+td, th {
+    padding: .3em;
+}
+
+th {
+    background-color: #bada55;
+}
+
+.classroom-image{
+    width:100%
+}
+
 .classes {
     margin: 5px;
     display: inline-block;
-    width: 350px;
+    width: 30%;
     text-align: center;
     border: double;
+    vertical-align: top;
 }
 .classes:hover{
     border: 2px solid teal;
-    background-color:aquamarine;
-
+    background-color:lightgray;
 }
 
+.row1 {
+    margin:5%;
+    display:inline-block;
+    vertical-align: top;
+}
 
+.row2 {
+    margin: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*#endregion */
 
 /*#region Images in Index*/
 
 body {
-    background: url(../Images/pigfarm.jfif) no-repeat center fixed;
+    background: url(../Images/mitch-harris-cPZ21gvclO8-unsplash.jpg) no-repeat center fixed;
     background-size: cover;
     margin: 0;
 }

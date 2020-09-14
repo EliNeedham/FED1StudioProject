@@ -67,18 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\annie-spratt-g5DkG2ZF7ZY-unsplash.jpg" />
+    <Content Include="Images\annie-spratt-lRcoPGrwkv0-unsplash.jpg" />
+    <Content Include="Images\another-classroom.jpg" />
+    <Content Include="Images\bright-classroom.jpg" />
+    <Content Include="Images\cali-school-house.jpg" />
     <Content Include="Images\CentriqLogo.png" />
+    <Content Include="Images\chris-benson-nKEARsgmrqc-unsplash.jpg" />
+    <Content Include="Images\class-chairs.jpg" />
+    <Content Include="Images\classroom.jpg" />
+    <Content Include="Images\dollar-gill-O-8uehnvlM8-unsplash.jpg" />
     <Content Include="Images\Forest.jfif" />
+    <Content Include="Images\green-chameleon-s9CC2SKySJM-unsplash.jpg" />
+    <Content Include="Images\jeshoots-com-pUAM5hPaCRI-unsplash.jpg" />
     <Content Include="Images\leader_chick.jpg" />
     <Content Include="Images\leader_dude.jpg" />
     <Content Include="Images\leader_gal.jpg" />
     <Content Include="Images\leader_man.jpg" />
-    <Content Include="Images\pigfarm.jfif" />
+    <Content Include="Images\map-classroom.jpg" />
+    <Content Include="Images\mitch-harris-cPZ21gvclO8-unsplash.jpg" />
+    <Content Include="Images\moroccan-912693_1920.jpg" />
+    <Content Include="Images\nicola-tolin-X8agSHaHsjA-unsplash.jpg" />
+    <Content Include="Images\raised-hand.jpg" />
+    <Content Include="Images\stucco-ceiling-1627013_1920.jpg" />
+    <Content Include="Images\writing-class.jpg" />
     <Content Include="Index.html" />
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\StyleSheet1.css" />
-    <Content Include="Images\classroom.jfif" />
     <Content Include="Images\ham_face.jpg" />
     <Content Include="JS\JavaScript.js" />
     <Content Include="Team.html" />
