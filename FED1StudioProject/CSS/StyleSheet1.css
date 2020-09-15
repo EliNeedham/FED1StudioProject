@@ -76,8 +76,6 @@ ul.blocklist a {
     clear:both;
 }
 
-
-
 #headerImage {
     background-image:url(../Images/cropped_lotus.jpg);
     background-repeat: no-repeat;
@@ -112,8 +110,10 @@ table, tr, td, th {
     border-collapse: collapse;
 }
 
-table {
+.class-list-table {
     margin: auto;
+    margin-bottom: 15px;
+    width: 45%
 }
 
 td, th {
@@ -121,7 +121,7 @@ td, th {
 }
 
 th {
-    background-color: #bada55;
+    background-color: #feb300;
 }
 
 .classroom-image{
@@ -240,16 +240,16 @@ image-text-2 {
 
     /*#endregion*/
 
+/*#region Team page - Leadership */
 
 #rightColumn {
-    display:block;
+    display: block;
     width: 20%;
     float: right;
     margin: 5px;
     /*border: 1px solid #ccc;*/
     /*border-right: none;*/
     padding: 10px;
-
 }
 
     /*#region on left employees on leadership page*/
@@ -263,17 +263,22 @@ image-text-2 {
     display: block;
 }
 
-.thumb {
-    float: left;
-    width: 20%;
-    cursor: pointer;
-}
-
 .leadership{
     display:block;
 }
 
+.leadership-images {
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+.leadership-images-text {
+    margin-left:30%;
+}
+
 /*#endregion*/
+/*#endregion */
 /*#region Contact Page*/
 .contactus {
     font-size: 3em;
