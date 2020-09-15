@@ -8,10 +8,10 @@ body {
 
 /*#region header and footer*/
 header {
-    background-color: darkslateblue;
+    background-color: #C20C64;
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: #171203;
     font-size: 20px;
     border: double;
     margin: 5px;
@@ -19,42 +19,47 @@ header {
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: #C20C64;
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: #171203;
     font-size: 20px;
     border: double;
     margin: 5px;
-    width: auto;
+    /*width: auto;*/
 }
 
 #logo {
     float: right;
 }
 
-/*header h1, header p {
-    margin: 12px 0 8px 100px;
+header h1, header p {
+    margin: 12px 0 8px 120px;
     text-align: left;
-}*/
+}
 
 /*#endregion */
 
 /*#region nav bar*/
 
-nav {
+nav ul {
     margin: 0px 5px;
     border: double;
-    background-color: antiquewhite;
-    /*padding: 5px;*/
-
+    background-color: #feb300;
+    /*padding: 0;*/
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0;
-    border: double;
-    text-align: center;
+        display: inline-block;
+        margin: 0;
+        /*border: double;*/
+        text-align: center;
+        color: #171203;
+}
+
+nav ul li:hover {
+        background-color: #ffaaab;
+        
 }
 
 ul.blocklist a {
@@ -62,6 +67,7 @@ ul.blocklist a {
     text-align: center;
     padding: .5em;
     display: block;
+    text-decoration: none;
 }
 
 
@@ -69,27 +75,28 @@ ul.blocklist a {
 .clear{
     clear:both;
 }
- 
 
 
-.hamface{
-    /*background-image:url(/Images/ham_face.jpg);*/
-    /*background-repeat: no-repeat;
-    background-size:90px;
-    background-position:3%;
-    margin-left:3px;
-    padding: 1em;*/
+
+#headerImage {
+    background-image:url(../Images/cropped_lotus.jpg);
+    background-repeat: no-repeat;
+    background-size:120px;
+    margin:3px;
+    padding: 1em;
 }
+
+
 
 /*.floatRight{
     float:right;
 }*/
 
-.headerImage{
-    max-height: 90px;
+/*.headerImage{
+    max-height: 150px;
     margin: .5em;
     float:left;
-}
+}*/
 
 .contactinfo{
     background-position: center;
@@ -129,10 +136,11 @@ th {
     border: double;
     vertical-align: top;
 }
-.classes:hover{
-    border: 2px solid teal;
-    background-color:lightgray;
-}
+
+    .classes:hover {
+        border: 2px solid #C20C64;
+        background-color: #ffaaab;
+    }
 
 .row1 {
     margin:5%;
@@ -151,9 +159,7 @@ th {
 /*#region Images in Index*/
 
 body {
-    background: url(../Images/mitch-harris-cPZ21gvclO8-unsplash.jpg) no-repeat center fixed;
-    background-size: cover;
-    margin: 0;
+    background: #fff5d7;
 }
 
 #about-image{
@@ -240,9 +246,8 @@ image-text-2 {
     width: 20%;
     float: right;
     margin: 5px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     /*border-right: none;*/
-    background-color: lightcyan;
     padding: 10px;
 
 }
@@ -250,9 +255,8 @@ image-text-2 {
     /*#region on left employees on leadership page*/
 #leftColumn {
     margin: 5px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     /*border-left: none;*/
-    background-color: lightcyan;
     padding: 2%;
     width: 70%;
     float: left;
@@ -267,27 +271,6 @@ image-text-2 {
 
 .leadership{
     display:block;
-}
-
-#lightbox-container {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .8);
-    text-align: center;
-    padding-top: 65px;
-    display: none;
-}
-
-    #lightbox-container p {
-        color: #fff;
-    }
-
-#lightbox-content img {
-    border: 10px solid gray;
-    margin: auto;
 }
 
 /*#endregion*/

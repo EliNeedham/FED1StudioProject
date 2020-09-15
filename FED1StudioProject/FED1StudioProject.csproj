@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon %281%29.ico" />
+    <Content Include="Images\abstract-lotus-logo_283188-290.jpg" />
     <Content Include="Images\annie-spratt-g5DkG2ZF7ZY-unsplash.jpg" />
     <Content Include="Images\annie-spratt-lRcoPGrwkv0-unsplash.jpg" />
     <Content Include="Images\another-classroom.jpg" />
@@ -76,6 +78,8 @@
     <Content Include="Images\chris-benson-nKEARsgmrqc-unsplash.jpg" />
     <Content Include="Images\class-chairs.jpg" />
     <Content Include="Images\classroom.jpg" />
+    <Content Include="Images\cropped_lotus.jpg" />
+    <Content Include="Images\cropped_lotus_tall.jpg" />
     <Content Include="Images\dollar-gill-O-8uehnvlM8-unsplash.jpg" />
     <Content Include="Images\Forest.jfif" />
     <Content Include="Images\green-chameleon-s9CC2SKySJM-unsplash.jpg" />
@@ -84,6 +88,7 @@
     <Content Include="Images\leader_dude.jpg" />
     <Content Include="Images\leader_gal.jpg" />
     <Content Include="Images\leader_man.jpg" />
+    <Content Include="Images\lotus_logo_white.jpg" />
     <Content Include="Images\map-classroom.jpg" />
     <Content Include="Images\mitch-harris-cPZ21gvclO8-unsplash.jpg" />
     <Content Include="Images\moroccan-912693_1920.jpg" />
@@ -96,7 +101,6 @@
     <Content Include="Contact.html" />
     <Content Include="CSS\StyleSheet1.css" />
     <Content Include="Images\ham_face.jpg" />
-    <Content Include="JS\JavaScript.js" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -112,7 +116,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="JS\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
