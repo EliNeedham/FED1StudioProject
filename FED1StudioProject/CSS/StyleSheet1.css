@@ -3,12 +3,27 @@
 
 body {
     font-family: 'Bangers', cursive;
+    background:url(../Images/stucco-ceiling-1627013_1920.jpg) no-repeat center fixed;
+    background-size: cover;
+    margin:0;
+
 }
 
+/*body {
+    background: RGBA(255, 245, 215, .02);
+}*/
+
+/*#/*#region translucent background for all elements */
+
+.background {
+    background-color: rgba(255, 245, 215, .8);
+}
+
+/*#endregion */
 
 /*#region header and footer*/
 header {
-    background-color: #C20C64;
+    background-color: rgba(162, 56, 82, .89);
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #171203;
@@ -19,14 +34,18 @@ header {
 }
 
 footer {
-    background-color: #C20C64;
+    background-color: rgba(162, 56, 82, .89);
     border: double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #171203;
     font-size: 20px;
     border: double;
     margin: 5px;
-    /*width: auto;*/
+    position: fixed;
+    left: 0;
+    right:0;
+    bottom: 0;
+    /*width: 100%;*/
 }
 
 #logo {
@@ -45,7 +64,9 @@ header h1, header p {
 nav ul {
     margin: 0px 5px;
     border: double;
-    background-color: #feb300;
+    background-color: rgba(255, 202, 81, .89);
+    /*background-color: rgba(255, 201, 75, .89);*/
+    /*background-color: #feb300;*/
     /*padding: 0;*/
 }
 
@@ -59,7 +80,6 @@ nav ul li {
 
 nav ul li:hover {
         background-color: #ffaaab;
-        
 }
 
 ul.blocklist a {
@@ -121,7 +141,7 @@ td, th {
 }
 
 th {
-    background-color: #feb300;
+    background-color: rgba(255, 202, 81, .89);
 }
 
 .classroom-image{
@@ -158,16 +178,12 @@ th {
 
 /*#region Images in Index*/
 
-body {
-    background: #fff5d7;
-}
-
 #about-image{
     width: 100%;
 }
 
 .about {
-    background-color: lightcyan;
+    background-color: rgba(255, 245, 215, .8);
     margin: 15px 10% 5px 10%;
     border: 1px solid #ccc;
     display: inline-block;
@@ -179,6 +195,7 @@ body {
     float: left;
     margin: 5px;
     width: 30%;
+    height: 100%;
 }
 
 .about-index-text {
@@ -216,7 +233,6 @@ image-text-2 {
     /*#region Index.html*/
 
 .one {
-    background-color: lightcyan;
     margin: 15px 10% 0px 10%;
     border: 1px solid #ccc;
     display: inline-block;
@@ -224,7 +240,6 @@ image-text-2 {
     text-align: justify;
 }
 .two {
-    background-color: lightcyan;
     margin: 0px 10% 5px 10%;
     border: 1px solid #ccc;
     display: inline-block;
@@ -264,7 +279,23 @@ image-text-2 {
 }
 
 .leadership{
-    display:block;
+    display:inline-block;
+    margin: 10px;
+}
+
+.sales {
+    display: inline-block;
+    margin: 10px;
+}
+
+.administration {
+    display: inline-block;
+    margin: 10px;
+}
+
+.instructors {
+    display: inline-block;
+    margin: 10px;
 }
 
 .leadership-images {
@@ -280,17 +311,15 @@ image-text-2 {
 /*#endregion*/
 /*#endregion */
 /*#region Contact Page*/
+
 .contactus {
     font-size: 3em;
     text-align: center;
 }
 
-    .contactinfo{
-        width: 400px;
-        margin: 5px 20px 20px 250px;
-        text-align: center;
-        background-color: lightcyan;
-    }
+.contactinfo {
+    text-align: center;
+}
 
     /*#endregion*/
 
