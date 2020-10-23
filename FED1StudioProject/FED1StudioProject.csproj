@@ -68,10 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon %281%29.ico" />
+    <Content Include="Images\abstract-lotus-logo.jpg" />
     <Content Include="Images\abstract-lotus-logo_283188-290.jpg" />
     <Content Include="Images\annie-spratt-g5DkG2ZF7ZY-unsplash.jpg" />
     <Content Include="Images\annie-spratt-lRcoPGrwkv0-unsplash.jpg" />
     <Content Include="Images\another-classroom.jpg" />
+    <Content Include="Images\billy-huynh-W8KTS-mhFUE-unsplash.jpg" />
     <Content Include="Images\bright-classroom.jpg" />
     <Content Include="Images\cali-school-house.jpg" />
     <Content Include="Images\CentriqLogo.png" />
